@@ -1,6 +1,10 @@
 # coding: latin1
 
-from PyQt4.QtGui import QApplication, QPalette, QLinearGradient, QColor, QBrush
+try:
+    from PyQt4.QtGui import QApplication, QPalette, QLinearGradient, QColor, QBrush
+except:
+    print "No se encuentra la libreria PyQt4, instalela antes de iniciar la aplicación"
+
 # from views.pos_login import PosLogin
 from views.pos_manager import PosManager
 

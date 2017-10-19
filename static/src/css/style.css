@@ -8,6 +8,7 @@
 
 #pos_manager_container{
 	background: rgba(20,20,20, 195);
+    font-family: 'Circular Spotify Tx T Med';
     /*border-image: url(./static/src/img/store.jpg);*/
 }
 
@@ -42,18 +43,18 @@
 #login_password{
     border-radius: 20px;
     padding: 0 10px;
-    font-size: 11px;
+    font-size: 18px;
     font-weight: 900;
     border: none;
-    color: #DDD;
-    background: rgba(50, 50, 50, 220);
+    color: #282828;
+    background: rgba(250, 250, 250, 220);
 }
 
-#pos_server_name:focus,
+/*#pos_server_name:focus,
 #login_password:focus{
     background: gray;
     color: #FFF;
-}
+}*/
 
 #pos_server_name:disabled,
 #login_password:disabled{
@@ -95,19 +96,21 @@
     /*font-size: 10px;*/
 /*}*/
 
-/*#button_login*/
-/*{*/
-    /*background:#2EBD79;*/
-    /*color:#fff;*/
-    /*border-radius:20%;*/
-    /*font-weight: 700;*/
-    /*font-size:10px;*/
-/*}*/
+#button_login,
+#pos_button_connect
+{
+    background:#2EBD79;
+    color:#fff;
+    font-size: 18px;
+    border-radius:20%;
+    font-weight: 700;
+}
 
-/*#button_login:hover*/
-/*{*/
-    /*background:rgba(46, 219, 121, 240);*/
-/*}*/
+#button_login:hover,
+#pos_button_connect:hover
+{
+    background:rgba(46, 219, 121, 240);
+}
 
 /*#div_create{*/
     /*background: gray;*/

@@ -1,0 +1,114 @@
+
+
+/*#manager_form_window{*/
+	/*background: #121212;*/
+    /*border-image: url(./static/src/img/store.jpg);*/
+/*}*/
+
+
+#pos_manager_container{
+	background: rgba(20,20,20, 195);
+    /*border-image: url(./static/src/img/store.jpg);*/
+}
+
+/*#login_form_window{*/
+	/*background: #121212;*/
+    /*border-image:url(../img/store.jpg);*/
+/*}*/
+
+
+#login_container{
+	background: rgba(50,50,50, 125);
+    background:url(./static/src/img/store.jpg);
+}
+/*#login_container,*/
+/*#manager_container{*/
+    /*background: rgba(50,50,50, 125);*/
+/*}*/
+
+#pos_manager_title{
+    color: #DDD;
+    font-size: 22px;
+    font-weight:900;
+}
+
+#pos_manager_description{
+    color: #FEFEFE;
+    font-size: 18px;
+    font-weight:700;
+}
+
+#pos_server_name,
+#login_password{
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 11px;
+    font-weight: 900;
+    border: none;
+    color: #DDD;
+    background: rgba(50, 50, 50, 220);
+}
+
+#pos_server_name:focus,
+#login_password:focus{
+    background: gray;
+    color: #FFF;
+}
+
+#pos_server_name:disabled,
+#login_password:disabled{
+    background: #AAA;
+}
+
+/*#login_rememberme::indicator*/
+/*{*/
+    /*background:transparent;*/
+    /*width: 100%;*/
+/*}*/
+
+/*#label_icon*/
+/*{*/
+    /*border-radius:10%;*/
+    /*background:#CFCFCF;*/
+/*}*/
+
+/*#label_icon:hover*/
+/*{*/
+    /*background: #fff;*/
+/*}*/
+/*#login_rememberme*/
+/*{*/
+    /*color:transparent;*/
+    /*background:#000;*/
+    /*border-radius:10px;*/
+    /*border:2px solid #404040;*/
+/*}*/
+
+/*#login_rememberme:checked{*/
+    /*background:#2EBD79;*/
+    /*border:none;*/
+/*}*/
+
+/*#label_rememberme{*/
+    /*color: #FFF;*/
+    /*font-weight: 900;*/
+    /*font-size: 10px;*/
+/*}*/
+
+/*#button_login*/
+/*{*/
+    /*background:#2EBD79;*/
+    /*color:#fff;*/
+    /*border-radius:20%;*/
+    /*font-weight: 700;*/
+    /*font-size:10px;*/
+/*}*/
+
+/*#button_login:hover*/
+/*{*/
+    /*background:rgba(46, 219, 121, 240);*/
+/*}*/
+
+/*#div_create{*/
+    /*background: gray;*/
+/*}*/

@@ -1,17 +1,38 @@
 
 
-/*#manager_form_window{*/
-	/*background: #121212;*/
-    /*border-image: url(./static/src/img/store.jpg);*/
-/*}*/
-
-
-#pos_manager_container{
-	background: rgba(20,20,20, 195);
-    font-family: 'Circular Spotify Tx T Med';
-    /*border-image: url(./static/src/img/store.jpg);*/
+#pos_application_window{
+	background: #121212;
+    border-image: url(./static/src/img/store.jpg);
 }
 
+#pos_manager_form_window{
+    border-image: url(./static/src/img/back.jpg);
+}
+
+
+#pos_manager_container_connect,
+#pos_manager_container_database,
+#pos_manager_container_login{
+	background: rgba(20,20,20, 195);
+}
+
+#pos_title_database,
+#pos_title_login{
+    color: #DDDDDD;
+    font-size:16px;
+    font-weight:900;
+}
+
+#pos_list_db{
+    background-color: transparent;
+    font-size:14px;
+    color: #EEEEEE;
+    font-weight:700;
+}
+
+#pos_list_db:item:selected:active {
+    background: #119974;
+}
 /*#login_form_window{*/
 	/*background: #121212;*/
     /*border-image:url(../img/store.jpg);*/
@@ -39,15 +60,24 @@
     font-weight:700;
 }
 
-#pos_server_name,
-#login_password{
+#pos_protocol,
+#pos_host,
+#pos_port,
+#login_password,
+#login_username,
+#login_database_select{
     border-radius: 20px;
     padding: 0 10px;
     font-size: 18px;
     font-weight: 900;
     border: none;
     color: #282828;
-    background: rgba(250, 250, 250, 220);
+    background: #AAAAAA;
+}
+
+#login_password,
+#login_username{
+    font-size:12px;
 }
 
 /*#pos_server_name:focus,
@@ -56,54 +86,78 @@
     color: #FFF;
 }*/
 
-#pos_server_name:disabled,
-#login_password:disabled{
+#pos_protocol:disabled,
+#pos_host:disabled,
+#pos_port:disabled,
+#login_password:disabled,
+#login_username:disabled{
     background: #AAA;
 }
 
-/*#login_rememberme::indicator*/
-/*{*/
-    /*background:transparent;*/
-    /*width: 100%;*/
-/*}*/
+#pos_error_msg{
+    color: #db8d88;
+    font-size:12px;
+    font-weight: 900;
+    background: #8b040e;
+    border: 1px solid crimson;
+}
+#login_rememberme::indicator
+{
+    background:transparent;
+    width: 100%;
+}
 
-/*#label_icon*/
-/*{*/
-    /*border-radius:10%;*/
-    /*background:#CFCFCF;*/
-/*}*/
+#label_icon
+{
+    border-radius:10%;
+    background:#CFCFCF;
+}
 
-/*#label_icon:hover*/
-/*{*/
-    /*background: #fff;*/
-/*}*/
-/*#login_rememberme*/
-/*{*/
-    /*color:transparent;*/
-    /*background:#000;*/
-    /*border-radius:10px;*/
-    /*border:2px solid #404040;*/
-/*}*/
+#label_icon:hover
+{
+    background: #fff;
+}
+#login_rememberme
+{
+    color:transparent;
+    background:#000;
+    border-radius:10px;
+    border:2px solid #404040;
+    outline:none;
+}
 
-/*#login_rememberme:checked{*/
-    /*background:#2EBD79;*/
-    /*border:none;*/
-/*}*/
+#login_rememberme:checked{
+    background:#2EBD79;
+    border:none;
+    outline:none;
+}
 
-/*#label_rememberme{*/
-    /*color: #FFF;*/
-    /*font-weight: 900;*/
-    /*font-size: 10px;*/
-/*}*/
+#label_rememberme{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 10px;
+    background: transparent;
+    outline:none;
+}
 
 #button_login,
 #pos_button_connect
 {
-    background:#2EBD79;
+    background: #476fbd;
     color:#fff;
-    font-size: 18px;
+    font-size: 12px;
     border-radius:20%;
     font-weight: 700;
+    outline:none;
+}
+
+#button_change_db{
+    background: #96bd5c;
+    color:#fff;
+    font-size: 12px;
+    border-radius:20%;
+    font-weight: 700;
+    outline:none;
 }
 
 #button_login:hover,

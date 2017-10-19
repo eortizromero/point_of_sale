@@ -3,9 +3,8 @@
 try:
     from PyQt4.QtGui import QApplication, QPalette, QLinearGradient, QColor, QBrush
 except:
-    print "No se encuentra la libreria PyQt4, instalela antes de iniciar la aplicaciÃ³n"
+    print "No se encuentra la libreria PyQt4, instalela antes de iniciar la aplicación"
 
-# from views.pos_login import PosLogin
 from views.pos_manager import PosManager
 
 def run_app():
@@ -23,7 +22,6 @@ def run_app():
     p.setBrush(QPalette.Window, QBrush(gradient))
     db_manager.setPalette(p)
     sys.exit(app.exec_())
-
 
 if __name__ == '__main__':
     run_app()
